@@ -21,7 +21,7 @@ This is a responsive weather search app built using Vite, React, and Tailwind CS
 
 Follow these steps to set up the project locally.
 
-### Step 1: Install Dependencies
+### Steps: Install Dependencies
 
 Install the necessary dependencies using npm or yarn:
 
@@ -58,6 +58,4 @@ TypeScript: Adds static typing to JavaScript.
 Tailwind CSS: Utility-first CSS framework for styling.
 Axios: For making HTTP requests to the OpenWeatherMap API.
 Google OAuth: For Google sign-in functionality.
-vbnet
-Copy code
 
