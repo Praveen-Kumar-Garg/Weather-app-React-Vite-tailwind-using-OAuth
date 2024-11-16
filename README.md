@@ -33,9 +33,9 @@ Set up OAuth consent screen and configure Authorized JavaScript origins to inclu
 Copy the Client ID.
 
 
-Create a .env file in the root of the project with the following variables:
+**Create a .env file in the root of the project with the following variables:**
 
-env
+**env**
 VITE_GOOGLE_CLIENT_ID=your_google_client_id
 VITE_OPENWEATHER_API_KEY=your_openweathermap_api_key
 
@@ -45,9 +45,9 @@ npm run dev
 yarn dev
 
 Dependencies 🛠️
-Vite: Fast and optimized frontend build tool.
-React: JavaScript library for building user interfaces.
-TypeScript: Adds static typing to JavaScript.
+**Vite: Fast and optimized frontend build tool.**
+**React: JavaScript library for building user interfaces.**
+**TypeScript: Adds static typing to JavaScript.**
 Tailwind CSS: Utility-first CSS framework for styling.
 Axios: For making HTTP requests to the OpenWeatherMap API.
 Google OAuth: For Google sign-in functionality.
