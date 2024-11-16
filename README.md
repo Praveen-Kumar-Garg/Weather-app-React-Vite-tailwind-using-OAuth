@@ -21,33 +21,43 @@ This is a responsive weather search app built using Vite, React, and Tailwind CS
 
 Follow these steps to set up the project locally.
 
+### Step 1: Install Dependencies
+
+Install the necessary dependencies using npm or yarn:
+
+```bash
 npm install
 # or
 yarn install
 
+Step 2: Set Up Google OAuth Credentials
 Go to the Google Cloud Console.
 Create a new project or select an existing one.
 Go to APIs & Services > Credentials.
 Click Create Credentials and select OAuth client ID.
-Set up OAuth consent screen and configure Authorized JavaScript origins to include http://localhost:5174 (or the port Vite is running on).
-Copy the Client ID.
+Set up the OAuth consent screen and configure Authorized JavaScript origins to include http://localhost:5174 (or the port Vite is running on).
 
+Configure Environment Variables
+Create a .env file in the root of the project and add the following variables:
 
-**Create a .env file in the root of the project with the following variables:**
-
-**env**
+env
 VITE_GOOGLE_CLIENT_ID=your_google_client_id
 VITE_OPENWEATHER_API_KEY=your_openweathermap_api_key
 
 Run the App
+Start the development server using npm or yarn:
 npm run dev
 # or
 yarn dev
 
+
 Dependencies 🛠️
-**Vite: Fast and optimized frontend build tool.**
-**React: JavaScript library for building user interfaces.**
-**TypeScript: Adds static typing to JavaScript.**
+Vite: Fast and optimized frontend build tool.
+React: JavaScript library for building user interfaces.
+TypeScript: Adds static typing to JavaScript.
 Tailwind CSS: Utility-first CSS framework for styling.
 Axios: For making HTTP requests to the OpenWeatherMap API.
 Google OAuth: For Google sign-in functionality.
+vbnet
+Copy code
+
